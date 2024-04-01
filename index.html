@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./main.js"></script>
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <div class="restration">
+            <p class="logo">Your logo</p>
+            <!-- вход в аккаунт -->
+            <div id="signin" class="signin">
+                <h2 class="signin__title">Sign in</h2>
+                <p class="signin__text1">If you don’t have an account register</p>
+                <p class="signin__text2">You can <button id="gotosingup" class="signin__gotosingup">Register here !</button> </p>
+
+                <!-- сслыка - go (переход)
+                кнопка - do (действие) -->
+
+                <form class="form" action="#">
+                    <label class="form__label" for="">Email</label>
+                    <input placeholder="Enter your email address" class="form__input email" type="text">
+
+                    <label class="form__label" for="">Password</label>
+
+
+                    <div class="password-wrapper">
+                        <input id="password" placeholder="Enter your Password" class="form__input password" type="text">
+                        <button id="password-control" class="password-control close-eye"></button>
+                    </div>
+
+
+                    <button class="form__btn">Login</button>
+                </form>
+
+                <p class="signin__continue">or continue with</p>
+
+                <div class="signin__images">
+                    <a href="#" class="signin__link"> <img src="./img/Facebook.svg" alt="" class="signin__image"></a>
+                    <a href="#" class="signin__link"><img src="./img/apple.svg" alt="" class="signin__image"></a>
+                    <a href="#" class="signin__link"> <img src="./img/google.svg" alt="" class="signin__image"></a>
+                </div>
+            </div>
+
+            <!-- регистрация -->
+
+            <div id="signup" class="signup hide">
+                <h2 class="signin__title">Sign up</h2>
+                <p class="signin__text1">If you already have an account register</p>
+                <p class="signin__text2">You can <button id="gotosignin" class="signin__gotosingup">Login here !</button> </p>
+
+                <!-- сслыка - go (переход)
+                кнопка - do (действие) -->
+
+                <form class="form1" action="#">
+                    <label class="form__label" for="">Email</label>
+                    <input placeholder="Enter your email address" class="form__input email" type="text">
+
+                    <label class="form__label" for="">Username</label>
+                    <input placeholder="Enter your User name" class="form__input email" type="text">
+
+                    <label class="form__label" for="">Password</label>
+                    <input placeholder="Enter your Password" class="form__input password" type="text">
+
+
+                    <label class="form__label" for="">Confrim Password</label>
+                    <input placeholder="Confrim your Password" class="form__input password" type="text">
+
+                    <button class="form__btn">Register</button>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="website">
+            <a class="website__link" href="tel:+79777026852">+94 0116 789 754</a>
+            <img class="website__image" src="./img/Saly-10.svg" alt="">
+            <h1 id="title" class="website__title">Sign in to name</h1>
+            <p class="website__descr">Lorem Ipsum is simply</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

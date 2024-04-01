@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.website {
+    background-color: #000842;
+    width: 50%;
+}
+
+.restration {
+    width: 50%;
+    padding-top: 31px;
+    padding-bottom: 114px;
+    padding-left: 42px;
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 0;
+    margin-bottom: 89px;
+}
+
+.hide {
+    display: none;
+}
+
+.signin {
+    margin: auto;
+    max-width: 431px;
+}
+
+.signup {
+    max-width: 431px;
+    margin: auto;
+}
+
+.signin__title {
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    margin-bottom: 22px;
+}
+
+.signin__text1 {
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 6px;
+}
+
+.signin__text2 {
+    margin: 0;
+    margin-bottom: 52px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.signin__gotosingup {
+    font-weight: 600;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(12, 33, 193);
+}
+
+.form__label {
+    display: block;
+    color: rgb(153, 153, 153);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(0, 8, 66);
+    padding-bottom: 7px;
+    padding-left: 28px;
+}
+
+.email {
+    margin-bottom: 49px;
+    background-image: url(./img/message1.png);
+    background-repeat: no-repeat;
+}
+
+.password {
+    margin-bottom: 95px;
+    background-image: url(./img/padlock1.png);
+    background-repeat: no-repeat;
+}
+
+.form__btn {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 32px;
+    box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(12, 33, 193);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.signin__continue {
+    color: rgb(181, 181, 181);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.form {
+    margin-bottom: 40px;
+}
+
+.form1 input {
+    margin-bottom: 42px;
+}
+
+.signin__images {
+    margin: auto;
+    max-width: 165px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* права часть  */
+
+.website {
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-left: 98px;
+    padding-bottom: 96px;
+    border-radius: 15px;
+    min-height: 900px;
+}
+
+.website__link {
+    max-width: 134px;
+    display: block;
+    margin-left: auto;
+    padding-left: 20px;
+    background-image: url(./img/phone-call1.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.website__image {
+    display: block;
+    margin: auto;
+    margin-bottom: 84px;
+}
+
+.website__title {
+    margin: 0;
+    margin-bottom: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.website__descr {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+
+/* кнопка на поле с паролем  */
+
+.password-wrapper {
+    position: relative;
+}
+
+.password-control {
+    position: absolute;
+    right: 9px;
+    top: 2px;
+    border: none;
+    background-color: transparent;
+    display: block;
+    width: 22px;
+    height: 19px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.open-eye {
+    background-image: url(./img/eye1.svg);
+}
+
+.close-eye {
+    background-image: url(./img/invisible1.svg);
+}
